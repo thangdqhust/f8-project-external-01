@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ========== Common ========== */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 24px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    line-height: 68px;
+    padding: 0 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #2ac9bf;
+}
+
+/* ========== Header ========== */
+.header {
+    background: #fff;
+}
+
+/* ----- Fixed ----- */
+.header.fixed {
+    position: sticky;
+    top: -44px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 52px 0 8px;
+}
+
+.header .nav ul {
+    display: flex;
+}
+
+.header .actions {
+    display: flex;
+    align-items: center;
+}
+.header .signup-btn {
+    display: inline-block;
+    text-align: center;
+    width: 108px;
+    line-height: 48px;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+}
